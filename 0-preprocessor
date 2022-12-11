@@ -1,0 +1,1 @@
+gcc cfile.c -o c
