@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include <time.h>
 
 /* more headers goes there */
@@ -12,6 +12,7 @@ int main(void)
 
 {
 	int n;
+	int l;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
         l = n % 10;
@@ -30,4 +31,4 @@ int main(void)
 	}
 		return (0);
 
-
+}
