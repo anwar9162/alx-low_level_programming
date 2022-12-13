@@ -1,7 +1,4 @@
 #include "main.h"
-
-
-
 /**
  *
  *  * main - check the code.
@@ -20,23 +17,46 @@ int main(void)
 
 
 
-	        r = _isalpha('H');
+	        r = print_sign(98);
 
-		    _putchar(r + '0');
+		    _putchar(',');
 
-		        r = _isalpha('o');
+		        _putchar(' ');
 
 			    _putchar(r + '0');
 
-			        r = _isalpha(108);
+			        _putchar('\n');
 
-				    _putchar(r + '0');
+				    r = print_sign(0);
 
-				        r = _isalpha(';');
+				        _putchar(',');
 
-					    _putchar(r + '0');
+					    _putchar(' ');
 
-					        _putchar('\n');
+					        _putchar(r + '0');
 
-						    return (0);
+						    _putchar('\n');
+
+						        r = print_sign(0xff);
+
+							    _putchar(',');
+
+							        _putchar(' ');
+
+								    _putchar(r + '0');
+
+								        _putchar('\n');
+
+									    r = print_sign(-1);
+
+									        _putchar(',');
+
+										    _putchar(' ');
+
+										        _putchar(r + '0');
+
+											    _putchar('\n');
+
+											        return (0);
+
 }
