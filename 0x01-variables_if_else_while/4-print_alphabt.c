@@ -1,11 +1,14 @@
 #include <stdio.h>
-/*
+/**
 * main - Entry point
+* 
 * Return: Always 0 (Success)
 */
 int main(void)
+
 {
 char letter; /*Decarling statement*/
+
 /*for letter*/
 
 for (letter = 'a'; letter <= 'z'; letter++)
