@@ -10,6 +10,7 @@
 char *_strpbrk(char *s, char *accept)
 {
 	char *ptr = accept;
+
 	while (*s != 0)
 	{
 		if (*s == *ptr && *ptr != 0)
